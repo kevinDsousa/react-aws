@@ -12,5 +12,16 @@
     "nohoist": [
       "**"
     ]
-  }
+  },
+  "scripts": { 
+    "dev": "turbo run dev"
+   },
+   "devDependencies": {
+    "dotenv-cli": "^7.0.0",
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "repository": "https://github.com/kevinDsousa/react-aws.git",
+  "private": true
 }
