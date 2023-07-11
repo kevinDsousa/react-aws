@@ -1,0 +1,16 @@
+{
+  "name": "reactAws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kevin <kevindiegodasilvasousa@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "frontend",
+      "backend"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  }
+}
