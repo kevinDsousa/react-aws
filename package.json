@@ -1,5 +1,5 @@
 {
-  "name": "reactAws",
+  "name": "app",
   "version": "1.0.0",
   "main": "index.js",
   "author": "kevin <kevindiegodasilvasousa@gmail.com>",
@@ -14,7 +14,8 @@
     ]
   },
   "scripts": { 
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "build": "turbo run build"
    },
    "devDependencies": {
     "dotenv-cli": "^7.0.0",
